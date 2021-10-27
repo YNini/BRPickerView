@@ -236,9 +236,9 @@
 #pragma mark - 点击蒙层视图事件
 - (void)didTapMaskView:(UITapGestureRecognizer *)sender {
     [self removePickerFromView:nil];
-    if (self.cancelBlock) {
-        self.cancelBlock();
-    }
+    //if (self.cancelBlock) {
+    //    self.cancelBlock();
+    //}
 }
 
 #pragma mark - 取消按钮的点击事件
